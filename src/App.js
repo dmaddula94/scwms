@@ -1,9 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import {
-  Dashboard,
   Notifications,
   Analytics,
-  Control,
   Reporting,
 } from "./components";
 import "./App.css";
