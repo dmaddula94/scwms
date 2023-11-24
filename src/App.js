@@ -25,7 +25,7 @@ function App() {
 
   const notify = () => {
     data.forEach((bin) => {
-      if (bin.currentFillLevel > 90) {
+      if (bin.currentFillLevel > 80) {
         enqueueSnackbar(`${bin.id} has ${bin.currentFillLevel}% waste`, {
           variant: "error",
         });
